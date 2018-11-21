@@ -1,3 +1,13 @@
+# Build and Run
+
+```sh
+docker build -t stevenaldinger/aircrack-ng:latest .
+```
+
+```sh
+docker run --rm -it --privileged --net=host stevenaldinger/aircrack-ng:latest sh
+```
+
 # General Algo
 
 ```sh
